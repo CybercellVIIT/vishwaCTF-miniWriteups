@@ -15,7 +15,7 @@ Points : 10
 
 Solves : 69
 
-Flags : VishwaCTF{vv3|c0m3_2_v1shvvactf}
+Flags : vishwaCTF{vv3|c0m3_2_v1shvvactf}
 
 ## Solution
 
