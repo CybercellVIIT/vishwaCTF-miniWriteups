@@ -16,3 +16,7 @@ Points : 5
 Solves : 87
 
 Flags : vishwaCTF{this_is_your_flag}
+
+## Solution
+
+The flag is given in the description for beginners to understand what a flag means. Just copy it and submit the same.
