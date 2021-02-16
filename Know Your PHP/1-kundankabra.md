@@ -43,16 +43,18 @@ http://vishwactf-mini.000webhostapp.com/?cyber_cell=[some-text-here]
 
 Then a final check is taking place, if final_string is equals to intermediate_string(i.e. vishwaCTFisFUN) then the "open_up()" is getting called and eventually we will get the flag.
 
-Now lets focus on preg_replace function , it is taking three arguments we_enter, '', you_enter
+Now lets focus on preg_replace function , it is taking three arguments 
+>we_enter, ' ', you_enter
+
 You can Google for preg_replace function in php!
 
-After reading the preg_replace function’s manual on google it will be evident that our supplied input(or substring of our input) is getting compared to string vishwaCTFisFUN, and if they are equal then our supplied input is getting replaced with ''(which is blank) . But in the final_string we need vishwaCTFisFUN, how it is possible when it is getting replaced with '' ?
+After reading the preg_replace function’s manual on google it will be evident that our supplied input(or substring of our input) is getting compared to string vishwaCTFisFUN, and if they are equal then our supplied input is getting replaced with ' '(which is blank) . But in the final_string we need vishwaCTFisFUN, how it is possible when it is getting replaced with ' ' ?
 
 So we can create a final input like : vishwavishwaCTFisFUNCTFisFUN
 
 ![Screenshot](solution_url.png)
 
-vishwavishwaCTFisFUNCTFisFUN , here even if the vishwaCTFisFUN gets replaced with '' , the starting vishwa and ending CTFisFUN will addup and make a new vishwaCTFisFUN 
+vishwavishwaCTFisFUNCTFisFUN , here even if the vishwaCTFisFUN gets replaced with ' ' , the starting vishwa and ending CTFisFUN will addup and make a new vishwaCTFisFUN 
 
 ![Screenshot](answer.png)
 
