@@ -1,7 +1,5 @@
 # vishwaCTF-miniWriteups
 
-# On hold till 9:00 AM 15 Feb, do not change anything till then.
-
 ## Folder Structure :-
 1. Each Problem will have its own folder by the problem name.
 2. Writeups will be added to these folders by anyone in the form of Markdown.md files.
