@@ -1,0 +1,4 @@
+cyberchef from base32
+then from base64
+from hexdump
+u get a hexdump inside which u can see the flag
