@@ -1,4 +1,6 @@
-# vishwaCTF-miniWriteups
+<img src="https://github.com/CybercellVIIT/miniVishwaCTF/blob/master/Large%20Mini.png">
+
+# vishwaCTF-Mini Writeups
 
 ## Folder Structure :-
 1. Each Problem will have its own folder by the problem name.
